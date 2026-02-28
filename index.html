@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Energy</title>
+    <script type="module" crossorigin src="/assets/main-CP_LV_MV.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-CDMqg_tl.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html" aria-label="Your Energy home">
+      <img
+        class="header-logo-img"
+        src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%20132%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='logo'%3e%3cg%20id='your%20energy'%3e%3cpath%20d='M4.98%2013.28L0%205H2.98L6.32%2010.74H6.36L9.7%205H12.68L7.7%2013.28V19H4.98V13.28Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M12.6703%2016.7V7.3L14.9703%205H22.1703L24.4703%207.3V16.7L22.1703%2019H14.9703L12.6703%2016.7ZM20.7303%2016.68L21.7503%2015.66V8.34L20.7303%207.32H16.4103L15.3903%208.34V15.66L16.4103%2016.68H20.7303Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M26.3742%2016.6V5H29.0942V15.66L30.1142%2016.68H34.0342L35.0542%2015.66V5H37.7742V16.6L35.3742%2019H28.7742L26.3742%2016.6Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M50.8781%2014.36V19H48.1581V14.98L46.9581%2013.64H42.5981V19H39.8781V5H48.6581L50.7981%207.16V11.4L49.4381%2012.78L50.8781%2014.36ZM42.5981%2011.4H47.4181L48.1181%2010.7V7.98L47.4181%207.28H42.5981V11.4Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M57.8234%205H67.9434V7.3H60.5434V10.84H67.3634V13.1H60.5434V16.7H67.9434V19H57.8234V5Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M69.4523%205H71.8923L78.1323%2014.5H78.1723V5H80.7923V19H78.3523L72.1123%209.52H72.0723V19H69.4523V5Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M82.8977%205H93.0177V7.3H85.6177V10.84H92.4377V13.1H85.6177V16.7H93.0177V19H82.8977V5Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M105.527%2014.36V19H102.807V14.98L101.607%2013.64H97.2466V19H94.5266V5H103.307L105.447%207.16V11.4L104.087%2012.78L105.527%2014.36ZM97.2466%2011.4H102.067L102.767%2010.7V7.98L102.067%207.28H97.2466V11.4Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M107.323%2016.7V7.3L109.623%205H116.583L118.843%207.26V9.4H116.123V8.26L115.183%207.32H111.063L110.043%208.34V15.66L111.063%2016.68H115.223L116.203%2015.7V13.52H113.203V11.2H118.843V16.7L116.543%2019H109.623L107.323%2016.7Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3cpath%20d='M123.828%2013.28L118.848%205H121.828L125.168%2010.74H125.208L128.548%205H131.528L126.548%2013.28V19H123.828V13.28Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+        alt="Your Energy"
+        width="132"
+        height="24"
+      />
+    </a>
+
+    <nav class="header-nav">
+      <ul class="header-nav-pill">
+        <li>
+          <a class="header-nav-link is-active" href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a class="header-nav-link " href="./favorites.html"
+            >Favorites</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="header-socials">
+      <li>
+        <a
+          class="header-social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='fb-dark'%3e%3cpath%20id='Vector'%20d='M17.08%204.06014C17.29%204.06014%2017.5%204.06014%2017.92%204.06014V7.21014C17.71%207.21014%2017.29%207.21014%2016.87%207.21014C16.45%207.21014%2016.03%207.21014%2015.82%207.42014C15.61%207.63014%2015.61%207.84014%2015.61%208.33014C15.61%208.75014%2015.61%209.03014%2015.61%209.45014H17.92V12.1101H15.61V23.6601H12.04V12.0401H10.15V9.38014H12.04V8.47014C12.04%206.93014%2012.25%205.81014%2012.67%205.32014C13.3%204.41014%2014.56%203.99014%2016.45%203.99014C16.66%204.06014%2016.87%204.06014%2017.08%204.06014Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3c/g%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          class="header-social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2022.4%2022.4'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Vector'%20d='M22.3279%206.61147C22.3142%205.67141%2022.14%204.7388%2021.8067%203.85959C21.2233%202.35822%2020.0354%201.17104%2018.5315%200.589866C17.662%200.263267%2016.7428%200.0881695%2015.8124%200.0683004C14.6157%200.014902%2014.2363%200%2011.1988%200C8.16117%200%207.77184%208.32707e-08%206.58392%200.0683004C5.65473%200.0881695%204.7355%200.263267%203.86602%200.589866C2.36215%201.17104%201.17299%202.35822%200.590848%203.85959C0.263705%204.72762%200.0870724%205.64533%200.0696579%206.57297C0.0161706%207.76885%200%208.1476%200%2011.1801C0%2014.2127%20-9.26772e-09%2014.6001%200.0696579%2015.7873C0.0883163%2016.7162%200.263705%2017.6326%200.590848%2018.5032C1.17423%2020.0033%202.36215%2021.1905%203.86726%2021.7716C4.73301%2022.1094%205.65224%2022.3007%206.58516%2022.3305C7.78303%2022.3839%208.16242%2022.4%2011.2%2022.4C14.2376%2022.4%2014.6269%2022.4%2015.8148%2022.3305C16.744%2022.3118%2017.6633%2022.1367%2018.534%2021.8101C20.0379%2021.2277%2021.2258%2020.0405%2021.8092%2018.5404C22.1363%2017.6711%2022.3117%2016.7547%2022.3303%2015.8246C22.3838%2014.6299%2022.4%2014.2512%2022.4%2011.2174C22.3975%208.18486%2022.3975%207.79989%2022.3279%206.61147ZM11.1913%2016.9149C8.0144%2016.9149%205.44078%2014.3455%205.44078%2011.1739C5.44078%208.00231%208.0144%205.43298%2011.1913%205.43298C14.3657%205.43298%2016.9418%208.00231%2016.9418%2011.1739C16.9418%2014.3455%2014.3657%2016.9149%2011.1913%2016.9149ZM17.1707%206.55931C16.4281%206.55931%2015.8298%205.96075%2015.8298%205.22062C15.8298%204.4805%2016.4281%203.88194%2017.1707%203.88194C17.9108%203.88194%2018.5104%204.4805%2018.5104%205.22062C18.5104%205.96075%2017.9108%206.55931%2017.1707%206.55931Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          class="header-social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Frame%2060'%20opacity='0.8'%3e%3cpath%20id='Vector'%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M21.21%205.24986C20.02%205.17986%2017.57%205.10986%2013.86%205.10986H13.37C9.80002%205.10986%207.42006%205.17986%206.23006%205.31986C4.62006%205.45986%203.50003%205.87986%202.87003%206.43986C2.31003%206.92986%201.89004%207.83986%201.75004%209.02986C1.68004%209.79986%201.61003%2011.4099%201.61003%2013.8599V14.2099C1.61003%2016.5199%201.68003%2018.1299%201.82003%2018.8999C2.03003%2020.0199%202.38006%2020.8599%203.08006%2021.3499C3.78006%2021.9099%204.97004%2022.2599%206.65004%2022.3999C7.84004%2022.4699%2010.29%2022.5399%2014%2022.5399H14.4901C18.06%2022.5399%2020.4401%2022.4699%2021.6301%2022.3299C23.2401%2022.1899%2024.36%2021.7699%2024.99%2021.2099C25.55%2020.7199%2025.97%2019.8099%2026.11%2018.6199C26.18%2017.8499%2026.25%2016.2399%2026.25%2013.7899V13.4399C26.25%2011.1299%2026.18%209.51986%2026.04%208.74986C25.83%207.62986%2025.4801%206.78986%2024.7801%206.29986C24.0801%205.73986%2022.89%205.38986%2021.21%205.24986ZM18.4801%2013.8599L10.7801%2018.4799V9.23986L18.4801%2013.8599Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3c/g%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+    </ul>
+
+    <button
+      class="header-burger"
+      type="button"
+      aria-label="Open menu"
+      data-menu-open
+    >
+      <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%23242424'%20stroke-width='2'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20x1='3'%20y1='6'%20x2='21'%20y2='6'/%3e%3cline%20x1='3'%20y1='12'%20x2='21'%20y2='12'/%3e%3cline%20x1='3'%20y1='18'%20x2='21'%20y2='18'/%3e%3c/svg%3e" alt="" width="24" height="24" />
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" data-menu>
+  <div class="mobile-menu-container">
+    <button
+      class="mobile-menu-close"
+      type="button"
+      aria-label="Close menu"
+      data-menu-close
+    >
+      <img src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%209%209'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Icon'%20d='M8.25%200.75L0.75%208.25M0.75%200.75L8.25%208.25'%20stroke='var(--stroke-0,%20%23F4F4F4)'%20stroke-width='1'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt="" width="32" height="32" />
+    </button>
+
+    <nav class="mobile-menu-nav">
+      <ul>
+        <li><a class="mobile-menu-link" href="./index.html">Home</a></li>
+        <li>
+          <a class="mobile-menu-link" href="./favorites.html">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="mobile-menu-socials">
+      <li>
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='facebook-light'%3e%3cpath%20id='Vector'%20d='M17.08%204.06014C17.29%204.06014%2017.5%204.06014%2017.92%204.06014V7.21014C17.71%207.21014%2017.29%207.21014%2016.87%207.21014C16.45%207.21014%2016.03%207.21014%2015.82%207.42014C15.61%207.63014%2015.61%207.84014%2015.61%208.33014C15.61%208.75014%2015.61%209.03014%2015.61%209.45014H17.92V12.1101H15.61V23.6601H12.04V12.0401H10.15V9.38014H12.04V8.47014C12.04%206.93014%2012.25%205.81014%2012.67%205.32014C13.3%204.41014%2014.56%203.99014%2016.45%203.99014C16.66%204.06014%2016.87%204.06014%2017.08%204.06014Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2022.4%2022.4'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Vector'%20d='M22.3279%206.61147C22.3142%205.67141%2022.14%204.7388%2021.8067%203.85959C21.2233%202.35822%2020.0354%201.17104%2018.5315%200.589866C17.662%200.263267%2016.7428%200.0881695%2015.8124%200.0683004C14.6157%200.014902%2014.2363%200%2011.1988%200C8.16117%200%207.77184%208.32707e-08%206.58392%200.0683004C5.65473%200.0881695%204.7355%200.263267%203.86602%200.589866C2.36215%201.17104%201.17299%202.35822%200.590848%203.85959C0.263705%204.72762%200.0870724%205.64533%200.0696579%206.57297C0.0161706%207.76885%200%208.1476%200%2011.1801C0%2014.2127%20-9.26772e-09%2014.6001%200.0696579%2015.7873C0.0883163%2016.7162%200.263705%2017.6326%200.590848%2018.5032C1.17423%2020.0033%202.36215%2021.1905%203.86726%2021.7716C4.73301%2022.1094%205.65224%2022.3007%206.58516%2022.3305C7.78303%2022.3839%208.16242%2022.4%2011.2%2022.4C14.2376%2022.4%2014.6269%2022.4%2015.8148%2022.3305C16.744%2022.3118%2017.6633%2022.1367%2018.534%2021.8101C20.0379%2021.2277%2021.2258%2020.0405%2021.8092%2018.5404C22.1363%2017.6711%2022.3117%2016.7547%2022.3303%2015.8246C22.3838%2014.6299%2022.4%2014.2512%2022.4%2011.2174C22.3975%208.18486%2022.3975%207.79989%2022.3279%206.61147ZM11.1913%2016.9149C8.0144%2016.9149%205.44078%2014.3455%205.44078%2011.1739C5.44078%208.00231%208.0144%205.43298%2011.1913%205.43298C14.3657%205.43298%2016.9418%208.00231%2016.9418%2011.1739C16.9418%2014.3455%2014.3657%2016.9149%2011.1913%2016.9149ZM17.1707%206.55931C16.4281%206.55931%2015.8298%205.96075%2015.8298%205.22062C15.8298%204.4805%2016.4281%203.88194%2017.1707%203.88194C17.9108%203.88194%2018.5104%204.4805%2018.5104%205.22062C18.5104%205.96075%2017.9108%206.55931%2017.1707%206.55931Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          class="mobile-menu-social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="YouTube"
+        >
+          <img
+            src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Frame%2060'%20opacity='0.8'%3e%3cpath%20id='Vector'%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M21.21%205.24986C20.02%205.17986%2017.57%205.10986%2013.86%205.10986H13.37C9.80003%205.10986%207.42006%205.17986%206.23006%205.31986C4.62006%205.45986%203.50003%205.87986%202.87003%206.43986C2.31003%206.92986%201.89004%207.83986%201.75004%209.02986C1.68004%209.79986%201.61003%2011.4099%201.61003%2013.8599V14.2099C1.61003%2016.5199%201.68003%2018.1299%201.82003%2018.8999C2.03003%2020.0199%202.38006%2020.8599%203.08006%2021.3499C3.78006%2021.9099%204.97004%2022.2599%206.65004%2022.3999C7.84004%2022.4699%2010.29%2022.5399%2014%2022.5399H14.4901C18.0601%2022.5399%2020.4401%2022.4699%2021.6301%2022.3299C23.2401%2022.1899%2024.3601%2021.7699%2024.9901%2021.2099C25.5501%2020.7199%2025.97%2019.8099%2026.11%2018.6199C26.18%2017.8499%2026.25%2016.2399%2026.25%2013.7899V13.4399C26.25%2011.1299%2026.1801%209.51986%2026.0401%208.74986C25.8301%207.62986%2025.4801%206.78986%2024.7801%206.29986C24.0801%205.73986%2022.89%205.38986%2021.21%205.24986ZM18.4801%2013.8599L10.7801%2018.4799V9.23986L18.4801%2013.8599Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+            alt=""
+            width="28"
+            height="28"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <div>
+            <h1 class="hero-title">
+              <img
+                class="hero-sun"
+                src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2059.744%2059.4892'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='sun'%3e%3cpath%20id='30%20(Stroke)'%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M26.7271%2025.3227L27.4083%2026.021L19.0348%202.02583L28.6289%2024.502L29.0121%2025.3997L29.0451%2024.4247L29.872%200L30.6989%2024.4242L30.732%2025.3997L31.115%2024.5024L40.7093%202.02583L32.6573%2025.0994L32.3357%2026.021L33.017%2025.3227L50.0829%207.82973L34.2395%2026.4365L33.6067%2027.1797L56.7269%2016.6278L35.2319%2028.2549L34.3734%2028.7193L35.3473%2028.6622L59.744%2027.2319L34.5321%2030.4318L58.7268%2038.2099L35.0087%2032.3213L34.0614%2032.0861L34.8196%2032.7L53.8125%2048.079L33.8233%2034.0201L33.0249%2033.4586L33.5101%2034.3049L45.665%2055.5065L32.1043%2035.176L31.5626%2034.364L35.3845%2059.4892L29.872%2034.68L24.3595%2059.4892L28.0346%2035.329L28.1814%2034.364L27.6401%2035.1756L14.0791%2055.5065L26.2337%2034.3054L26.7191%2033.4586L25.9212%2034.0198L5.93151%2048.079L24.9241%2032.7003L25.6827%2032.0861L24.7358%2032.3211L1.01726%2038.2099L24.2827%2030.7305L25.212%2030.4318L0%2027.2319L25.3707%2028.7193L24.5126%2028.2551L3.01713%2016.6278L26.1373%2027.1797L9.66116%207.82973L26.7271%2025.3227ZM28.471%2026.3835L27.2592%2027.1338L26.4002%2028.2712L26.0102%2029.6421L26.1417%2031.0614L26.777%2032.3373L27.8303%2033.2975L29.1594%2033.8124H30.5847L31.9137%2033.2975L32.9671%2032.3373L33.6024%2031.0614L33.7339%2029.6421L33.3438%2028.2712L32.4849%2027.1338L31.2731%2026.3835L29.872%2026.1216L28.471%2026.3835Z'%20fill='var(--fill-0,%20%23242424)'/%3e%3c/g%3e%3c/svg%3e"
+                alt=""
+                width="59"
+                height="59"
+              />
+              Get <em>Body</em> in <br />shape, Stay healthy
+            </h1>
+            <p class="hero-text">
+              Transform your physique and embrace a healthier lifestyle with our
+              comprehensive fitness and nutrition support.
+            </p>
+          </div>
+          <div class="hero-aside">
+            <div class="hero-image-small">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="data:image/webp;base64,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 1x, /assets/hero-small@2x-BgHQhfjb.webp 2x"
+                />
+                <source
+                  type="image/png"
+                  srcset="/assets/hero-small-HjAPFb10.png 1x, /assets/hero-small@2x-CaQONTPM.png 2x"
+                />
+                <img
+                  src="/assets/hero-small-HjAPFb10.png"
+                  alt="Women doing fitness outdoors"
+                  width="168"
+                  height="100"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div class="hero-tags">
+              <button class="hero-tag" type="button">#Sport</button>
+              <button class="hero-tag" type="button">#Healthy</button>
+              <button class="hero-tag" type="button">#Workout</button>
+              <button class="hero-tag" type="button">#Diet</button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="hero-banner">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="/assets/hero-banner-ZNHU2jHI.webp 1x, /assets/hero-banner@2x-CpmZNwYd.webp 2x"
+              />
+              <source
+                type="image/png"
+                srcset="/assets/hero-banner-DnxBa2cg.png 1x, /assets/hero-banner@2x-CAzNepnz.png 2x"
+              />
+              <img
+                src="/assets/hero-banner-DnxBa2cg.png"
+                alt="Women sportswear working out outdoors"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <div class="hero-tags-mobile">
+            <button class="hero-tag" type="button">#Sport</button>
+            <button class="hero-tag" type="button">#Healthy</button>
+            <button class="hero-tag" type="button">#Workout</button>
+            <button class="hero-tag" type="button">#Diet</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="exercises">
+        <div class="container">
+          <div class="exercises-header">
+            <h2 class="exercises-title">Exercises</h2>
+            <div class="exercises-header-row">
+              <div class="exercises-search" hidden>
+                <input
+                  class="exercises-search-input"
+                  type="text"
+                  placeholder="Search"
+                />
+                <button
+                  class="exercises-search-btn"
+                  type="button"
+                  aria-label="Search"
+                >
+                  <img
+                    src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2018%2018'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='search'%3e%3cpath%20id='Vector'%20d='M8.25%2014.25C11.5637%2014.25%2014.25%2011.5637%2014.25%208.25C14.25%204.93629%2011.5637%202.25%208.25%202.25C4.93629%202.25%202.25%204.93629%202.25%208.25C2.25%2011.5637%204.93629%2014.25%208.25%2014.25Z'%20stroke='var(--stroke-0,%20%23242424)'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20id='Vector_2'%20d='M15.75%2015.75L12.4875%2012.4875'%20stroke='var(--stroke-0,%20%23242424)'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3c/svg%3e"
+                    alt=""
+                    width="18"
+                    height="18"
+                  />
+                </button>
+              </div>
+              <div class="exercises-tabs">
+                <button class="exercises-tab is-active" data-filter="muscles">
+                  Muscles
+                </button>
+                <button class="exercises-tab" data-filter="body-parts">
+                  Body parts
+                </button>
+                <button class="exercises-tab" data-filter="equipment">
+                  Equipment
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="exercises-body">
+            <div class="exercises-sidebar">
+              <div class="quote-card">
+                <div class="quote-card-header">
+                  <div class="quote-card-icon">
+                    <img
+                      src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20id='Ellipse%201'%20cx='16'%20cy='16'%20r='16'%20fill='var(--fill-0,%20%23F4F4F4)'%20fill-opacity='0.2'/%3e%3c/svg%3e"
+                      alt=""
+                      width="32"
+                      height="32"
+                      class="quote-card-icon-bg"
+                      loading="lazy"
+                    />
+                    <img
+                      src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2018%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Group'%3e%3cpath%20id='Vector'%20d='M17.7293%205.90702C17.4611%205.59403%2016.9834%205.55288%2016.6631%205.81388L14.5637%207.53696L13.5983%205.19981C13.564%205.11209%2013.5119%205.03844%2013.452%204.97346C13.2547%204.54459%2012.9122%204.17636%2012.44%203.96301C12.235%203.87204%2012.0233%203.8233%2011.8116%203.79947C11.765%203.77565%2011.7229%203.74424%2011.6697%203.72799L7.9754%202.72187C7.76813%202.66664%207.55975%202.70238%207.38905%202.79985C7.18621%202.867%207.0122%203.01104%206.92906%203.22006L5.53802%206.71495C5.38728%207.09509%205.58014%207.52396%205.9703%207.67342C6.35824%207.82071%206.79827%207.63118%206.95012%207.24996L8.12503%204.29874L9.80759%204.75578C9.76657%204.82076%209.72224%204.88141%209.68899%204.95072L7.53204%209.51887C7.501%209.58602%207.48438%209.65425%207.46221%209.72356L4.84084%2014.0177L0.453778%2015.4516C-0.0427858%2015.8144%20-0.148084%2016.4978%200.218797%2016.983C0.587895%2017.4693%201.28951%2017.5722%201.78497%2017.2137L6.274%2015.7029C6.41144%2015.6054%206.5112%2015.4776%206.58657%2015.3401C6.6431%2015.2816%206.70738%2015.235%206.75061%2015.1625L8.31346%2012.6022L11.0878%2014.9123L8.11949%2018.1808C7.71049%2018.6314%207.7515%2019.3256%208.21481%2019.7241C8.67702%2020.1259%209.38528%2020.0837%209.7965%2019.631L13.5008%2015.5534C13.6161%2015.4278%2013.6848%2015.2827%2013.7313%2015.1311C13.759%2015.0487%2013.759%2014.9632%2013.7657%2014.8776C13.7657%2014.8343%2013.7823%2014.7953%2013.779%2014.7553C13.769%2014.4563%2013.6449%2014.1661%2013.3944%2013.9592L10.8417%2011.8322C11.0257%2011.6611%2011.182%2011.4575%2011.2951%2011.2181L12.9488%207.7189L13.4786%209.09758C13.5008%209.21996%2013.5429%209.34018%2013.6316%209.4409C13.7114%209.53404%2013.8134%209.59577%2013.922%209.63909C13.9331%209.6445%2013.9464%209.64559%2013.9597%209.64884C14.0284%209.67266%2014.0982%209.69541%2014.1703%209.69866C14.2556%209.70624%2014.3421%209.69541%2014.4296%209.67158C14.4318%209.6705%2014.4329%209.6705%2014.4329%209.6705C14.4562%209.66508%2014.4795%209.66941%2014.5028%209.65967C14.6258%209.61418%2014.72%209.53729%2014.8009%209.4474L17.8136%206.94888C18.1339%206.68571%2017.9987%206.22001%2017.7293%205.90702Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20id='Vector_2'%20d='M13.9189%204.12629C15.0851%204.12629%2016.0304%203.20259%2016.0304%202.06314C16.0304%200.923701%2015.0851%200%2013.9189%200C12.7528%200%2011.8074%200.923701%2011.8074%202.06314C11.8074%203.20259%2012.7528%204.12629%2013.9189%204.12629Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+                      alt=""
+                      width="20"
+                      height="20"
+                      class="quote-card-icon-img"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="quote-card-text">
+                    <h3 class="quote-card-title">Quote of the day</h3>
+                    <p class="quote-card-quote">
+                      A lot of times I find that people who are blessed with the
+                      most talent don't ever develop that attitude, and the ones
+                      who aren't blessed in that way are the most competitive
+                      and have the biggest heart.
+                    </p>
+                  </div>
+                  <img
+                    class="quote-card-commas"
+                    src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='inverted%20commas'%3e%3cpath%20id='Vector'%20d='M6.15077%2013.1014C7.31014%2012.642%208.23983%2012.7623%208.93984%2013.4623C9.63984%2014.1623%209.84764%2015.2779%209.56326%2016.8092C9.34452%2017.9467%208.86328%2018.8217%208.11952%2019.4342C7.39764%2020.0248%206.55546%2020.3201%205.59296%2020.3201C4.28045%2020.3201%203.37265%2019.817%202.86952%2018.8107C2.3664%2017.7826%202.26796%2016.4045%202.57421%2014.6764C2.7492%2013.7357%203.03358%2012.7842%203.42732%2011.8217C3.82109%2010.8592%204.34609%209.87481%205.00232%208.86856C5.65858%207.86232%206.51171%206.9873%207.56171%206.24356C8.61171%205.4998%209.77108%205.01856%2011.0398%204.7998L10.7117%208.27792C9.63984%208.49668%208.68827%209.05449%207.85703%209.95137C7.02576%2010.8264%206.45701%2011.8764%206.15077%2013.1014ZM16.0273%2013.1014C17.1867%2012.642%2018.1164%2012.7623%2018.8164%2013.4623C19.5164%2014.1623%2019.7242%2015.2779%2019.4398%2016.8092C19.2211%2017.9467%2018.7398%2018.8217%2017.9961%2019.4342C17.2742%2020.0248%2016.432%2020.3201%2015.4695%2020.3201C14.157%2020.3201%2013.2492%2019.817%2012.7461%2018.8107C12.243%2017.7826%2012.1445%2016.4045%2012.4508%2014.6764C12.6258%2013.7357%2012.9102%2012.7842%2013.3039%2011.8217C13.6976%2010.8592%2014.2226%209.87481%2014.8789%208.86856C15.5352%207.86232%2016.3883%206.9873%2017.4383%206.24356C18.4883%205.4998%2019.6477%205.01856%2020.9164%204.7998L20.5883%208.27792C19.5164%208.49668%2018.5648%209.05449%2017.7336%209.95137C16.9023%2010.8264%2016.3336%2011.8764%2016.0273%2013.1014Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+                    alt=""
+                    width="24"
+                    height="24"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="quote-card-author">Tom Brady</p>
+              </div>
+
+              <div class="sidebar-image">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="/assets/sports-break-2dlEfRrr.webp 1x, /assets/sports-break@2x-DeYpC6up.webp 2x"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="/assets/sports-break-BfegoTKr.png 1x, /assets/sports-break@2x-D3Odf1kr.png 2x"
+                  />
+                  <img
+                    src="/assets/sports-break-BfegoTKr.png"
+                    alt="Women taking a break from workout"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+
+              <div class="daily-norm-card">
+                <div class="daily-norm-icon">
+                  <img
+                    src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='icon'%3e%3ccircle%20id='Ellipse%201'%20cx='16'%20cy='16'%20r='16'%20fill='var(--fill-0,%20%23242424)'/%3e%3cg%20id='fluent:food-24-filled'%3e%3cpath%20id='Vector'%20d='M10.6%2011.7143H9.4C9.0675%2011.7143%208.8%2012.0009%208.8%2012.3571V15.1429H8.2C8.09%2015.1429%208%2015.2393%208%2015.3571V16.6429C8%2016.7607%208.09%2016.8571%208.2%2016.8571H8.8V19.6429C8.8%2019.9991%209.0675%2020.2857%209.4%2020.2857H10.6C10.9325%2020.2857%2011.2%2019.9991%2011.2%2019.6429V12.3571C11.2%2012.0009%2010.9325%2011.7143%2010.6%2011.7143ZM23.8%2015.1429H23.2V12.3571C23.2%2012.0009%2022.9325%2011.7143%2022.6%2011.7143H21.4C21.0675%2011.7143%2020.8%2012.0009%2020.8%2012.3571V19.6429C20.8%2019.9991%2021.0675%2020.2857%2021.4%2020.2857H22.6C22.9325%2020.2857%2023.2%2019.9991%2023.2%2019.6429V16.8571H23.8C23.91%2016.8571%2024%2016.7607%2024%2016.6429V15.3571C24%2015.2393%2023.91%2015.1429%2023.8%2015.1429ZM19.4%2010H18.2C17.8675%2010%2017.6%2010.2866%2017.6%2010.6429V15.1429H14.4V10.6429C14.4%2010.2866%2014.1325%2010%2013.8%2010H12.6C12.2675%2010%2012%2010.2866%2012%2010.6429V21.3571C12%2021.7134%2012.2675%2022%2012.6%2022H13.8C14.1325%2022%2014.4%2021.7134%2014.4%2021.3571V16.8571H17.6V21.3571C17.6%2021.7134%2017.8675%2022%2018.2%2022H19.4C19.7325%2022%2020%2021.7134%2020%2021.3571V10.6429C20%2010.2866%2019.7325%2010%2019.4%2010Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                    alt=""
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                  />
+                </div>
+                <h3 class="daily-norm-title">110 min</h3>
+                <p class="daily-norm-subtitle">Daily norm of sports</p>
+                <p class="daily-norm-text">
+                  The World Health Organization recommends at least 150 minutes
+                  of moderate-intensity aerobic physical activity throughout the
+                  week for adults aged 18-64. However, what happens if we adjust
+                  that number to 110 minutes every day? While it might seem like
+                  a high number to hit, dedicating 110 minutes daily to sporting
+                  activities may offer unparalleled benefits to physical health,
+                  mental well-being, and overall quality of life.
+                </p>
+              </div>
+            </div>
+
+            <div class="exercises-grid">
+              <ul class="exercises-list"></ul>
+
+              <div class="pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-left">
+      <a class="footer-logo" href="./index.html" aria-label="Your Energy home">
+        <img
+          class="footer-logo-img"
+          src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%20132%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='logo'%3e%3cg%20id='your%20energy'%3e%3cpath%20d='M4.98%2013.28L0%205H2.98L6.32%2010.74H6.36L9.7%205H12.68L7.7%2013.28V19H4.98V13.28Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M12.6703%2016.7V7.3L14.9703%205H22.1703L24.4703%207.3V16.7L22.1703%2019H14.9703L12.6703%2016.7ZM20.7303%2016.68L21.7503%2015.66V8.34L20.7303%207.32H16.4103L15.3903%208.34V15.66L16.4103%2016.68H20.7303Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M26.3742%2016.6V5H29.0942V15.66L30.1142%2016.68H34.0342L35.0542%2015.66V5H37.7742V16.6L35.3742%2019H28.7742L26.3742%2016.6Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M50.8781%2014.36V19H48.1581V14.98L46.9581%2013.64H42.5981V19H39.8781V5H48.6581L50.7981%207.16V11.4L49.4381%2012.78L50.8781%2014.36ZM42.5981%2011.4H47.4181L48.1181%2010.7V7.98L47.4181%207.28H42.5981V11.4Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M57.8234%205H67.9434V7.3H60.5434V10.84H67.3634V13.1H60.5434V16.7H67.9434V19H57.8234V5Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M69.4523%205H71.8923L78.1323%2014.5H78.1723V5H80.7923V19H78.3523L72.1123%209.52H72.0723V19H69.4523V5Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M82.8977%205H93.0177V7.3H85.6177V10.84H92.4377V13.1H85.6177V16.7H93.0177V19H82.8977V5Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M105.527%2014.36V19H102.807V14.98L101.607%2013.64H97.2466V19H94.5266V5H103.307L105.447%207.16V11.4L104.087%2012.78L105.527%2014.36ZM97.2466%2011.4H102.067L102.767%2010.7V7.98L102.067%207.28H97.2466V11.4Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M107.323%2016.7V7.3L109.623%205H116.583L118.843%207.26V9.4H116.123V8.26L115.183%207.32H111.063L110.043%208.34V15.66L111.063%2016.68H115.223L116.203%2015.7V13.52H113.203V11.2H118.843V16.7L116.543%2019H109.623L107.323%2016.7Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3cpath%20d='M123.828%2013.28L118.848%205H121.828L125.168%2010.74H125.208L128.548%205H131.528L126.548%2013.28V19H123.828V13.28Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+          alt="Your Energy"
+          width="132"
+          height="24"
+          loading="lazy"
+        />
+      </a>
+      <ul class="footer-socials">
+        <li>
+          <a
+            class="footer-social-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <img
+              src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='facebook-light'%3e%3cpath%20id='Vector'%20d='M17.08%204.06014C17.29%204.06014%2017.5%204.06014%2017.92%204.06014V7.21014C17.71%207.21014%2017.29%207.21014%2016.87%207.21014C16.45%207.21014%2016.03%207.21014%2015.82%207.42014C15.61%207.63014%2015.61%207.84014%2015.61%208.33014C15.61%208.75014%2015.61%209.03014%2015.61%209.45014H17.92V12.1101H15.61V23.6601H12.04V12.0401H10.15V9.38014H12.04V8.47014C12.04%206.93014%2012.25%205.81014%2012.67%205.32014C13.3%204.41014%2014.56%203.99014%2016.45%203.99014C16.66%204.06014%2016.87%204.06014%2017.08%204.06014Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+              alt=""
+              width="28"
+              height="28"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            class="footer-social-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <img
+              src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2022.4%2022.4'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='Vector'%20d='M22.3279%206.61147C22.3142%205.67141%2022.14%204.7388%2021.8067%203.85959C21.2233%202.35822%2020.0354%201.17104%2018.5315%200.589866C17.662%200.263267%2016.7428%200.0881695%2015.8124%200.0683004C14.6157%200.014902%2014.2363%200%2011.1988%200C8.16117%200%207.77184%208.32707e-08%206.58392%200.0683004C5.65473%200.0881695%204.7355%200.263267%203.86602%200.589866C2.36215%201.17104%201.17299%202.35822%200.590848%203.85959C0.263705%204.72762%200.0870724%205.64533%200.0696579%206.57297C0.0161706%207.76885%200%208.1476%200%2011.1801C0%2014.2127%20-9.26772e-09%2014.6001%200.0696579%2015.7873C0.0883163%2016.7162%200.263705%2017.6326%200.590848%2018.5032C1.17423%2020.0033%202.36215%2021.1905%203.86726%2021.7716C4.73301%2022.1094%205.65224%2022.3007%206.58516%2022.3305C7.78303%2022.3839%208.16242%2022.4%2011.2%2022.4C14.2376%2022.4%2014.6269%2022.4%2015.8148%2022.3305C16.744%2022.3118%2017.6633%2022.1367%2018.534%2021.8101C20.0379%2021.2277%2021.2258%2020.0405%2021.8092%2018.5404C22.1363%2017.6711%2022.3117%2016.7547%2022.3303%2015.8246C22.3838%2014.6299%2022.4%2014.2512%2022.4%2011.2174C22.3975%208.18486%2022.3975%207.79989%2022.3279%206.61147ZM11.1913%2016.9149C8.0144%2016.9149%205.44078%2014.3455%205.44078%2011.1739C5.44078%208.00231%208.0144%205.43298%2011.1913%205.43298C14.3657%205.43298%2016.9418%208.00231%2016.9418%2011.1739C16.9418%2014.3455%2014.3657%2016.9149%2011.1913%2016.9149ZM17.1707%206.55931C16.4281%206.55931%2015.8298%205.96075%2015.8298%205.22062C15.8298%204.4805%2016.4281%203.88194%2017.1707%203.88194C17.9108%203.88194%2018.5104%204.4805%2018.5104%205.22062C18.5104%205.96075%2017.9108%206.55931%2017.1707%206.55931Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/svg%3e"
+              alt=""
+              width="28"
+              height="28"
+              loading="lazy"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            class="footer-social-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <img
+              src="data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20width='100%25'%20height='100%25'%20overflow='visible'%20style='display:%20block;'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='Frame%2060'%20opacity='0.8'%3e%3cpath%20id='Vector'%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M21.21%205.24986C20.02%205.17986%2017.57%205.10986%2013.86%205.10986H13.37C9.80003%205.10986%207.42006%205.17986%206.23006%205.31986C4.62006%205.45986%203.50003%205.87986%202.87003%206.43986C2.31003%206.92986%201.89004%207.83986%201.75004%209.02986C1.68004%209.79986%201.61003%2011.4099%201.61003%2013.8599V14.2099C1.61003%2016.5199%201.68003%2018.1299%201.82003%2018.8999C2.03003%2020.0199%202.38006%2020.8599%203.08006%2021.3499C3.78006%2021.9099%204.97004%2022.2599%206.65004%2022.3999C7.84004%2022.4699%2010.29%2022.5399%2014%2022.5399H14.4901C18.0601%2022.5399%2020.4401%2022.4699%2021.6301%2022.3299C23.2401%2022.1899%2024.3601%2021.7699%2024.9901%2021.2099C25.5501%2020.7199%2025.97%2019.8099%2026.11%2018.6199C26.18%2017.8499%2026.25%2016.2399%2026.25%2013.7899V13.4399C26.25%2011.1299%2026.1801%209.51986%2026.0401%208.74986C25.8301%207.62986%2025.4801%206.78986%2024.7801%206.29986C24.0801%205.73986%2022.89%205.38986%2021.21%205.24986ZM18.4801%2013.8599L10.7801%2018.4799V9.23986L18.4801%2013.8599Z'%20fill='var(--fill-0,%20%23F4F4F4)'/%3e%3c/g%3e%3c/svg%3e"
+              alt=""
+              width="28"
+              height="28"
+              loading="lazy"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-center">
+      <p class="footer-slogan">Transforming your <em>body</em> shape with us</p>
+    </div>
+
+    <div class="footer-right">
+      <p class="footer-subscribe-text">
+        Subscribe and learn about new exercises!
+      </p>
+      <form class="footer-form">
+        <input
+          class="footer-input"
+          type="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="email"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+(\.[a-zA-Z_]+)*\.[a-zA-Z]{2,3}$"
+          required
+        />
+        <button class="footer-btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copyright">Your Energy. All rights reserved.</p>
+      <div class="footer-legal">
+        <a class="footer-legal-link" href="#">Privacy Policy</a>
+        <span class="footer-legal-sep">/</span>
+        <a class="footer-legal-link" href="#">Terms of Service</a>
+      </div>
+      <p class="footer-year">&copy;<span data-year></span></p>
+    </div>
+  </div>
+</footer>
+
+    <div class="modal-backdrop" data-modal-exercise hidden></div>
+
+<div class="modal-backdrop" data-modal-rating hidden></div>
+
+
+  </body>
+</html>
