@@ -1,0 +1,62 @@
+.daily-norm-card {
+  background-color: var(--bg-primary);
+  border-radius: var(--radius-card-lg);
+  padding: var(--space-500);
+}
+
+.daily-norm-icon {
+  margin-bottom: 15px;
+}
+
+.daily-norm-title {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-medium);
+  line-height: 1;
+  color: var(--text-primary);
+  margin-bottom: var(--space-150);
+}
+
+.daily-norm-subtitle {
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--fw-regular);
+  line-height: 1.29;
+  color: var(--text-muted);
+  margin-bottom: var(--space-500);
+}
+
+.daily-norm-text {
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--fw-regular);
+  line-height: 1.29;
+  color: var(--text-primary);
+}
+
+.daily-norm-card--compact .daily-norm-subtitle {
+  margin-bottom: 0;
+}
+
+.daily-norm-card--compact .daily-norm-text {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .daily-norm-card {
+    padding: 25px;
+  }
+
+  .daily-norm-icon {
+    margin-bottom: 15px;
+  }
+
+  .daily-norm-title {
+    font-size: var(--fs-800);
+    line-height: 1.33;
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .daily-norm-card {
+    padding: 25px;
+  }
+}
